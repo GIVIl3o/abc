@@ -1,0 +1,103 @@
+body{
+	margin: 0px;
+	background-color: #e9ebee;
+}
+
+#navbarHead{
+	background-color: #4267b2;
+	height: 43px;
+	overflow: auto;
+	width: 100%;
+	position: fixed;
+	z-index: 1;
+}
+
+#navbarCentered{
+	width: 1012px;
+	margin: auto;
+	margin-top:9px;
+}
+
+#navbarLeft{
+	display: inline;
+}
+#navbarRight{
+	float: right;
+	display: inline;
+}
+
+.navbarContent{
+	margin-left: 5px;
+}
+
+
+#fblogo{
+	background-image: url("images/FBWhiteBlueLogo.png");
+	width: 24px;
+	height: 24px;
+	display: inline-block;
+	cursor: pointer;
+}
+
+#searchbar{
+	height: 26px;
+	outline: none;
+	border-radius: 3px;
+	border: 1px solid #3b5998;
+	padding-left: 7px;
+	vertical-align: top;
+	width: 450px;
+}
+
+.profilePic{
+	border-radius: 50%;
+}
+
+.text_navbar{
+	color:white;
+	font-weight: bold;
+	top: -7px;
+	position: relative;
+	padding: 5px;
+	cursor: pointer;
+	font-family: Helvetica;
+	font-size: 12px;
+}
+#my_profile{
+	cursor: pointer;
+	display: inline-block;
+}
+#my_profile:hover{
+	background-color: navy;
+	border-radius: 10%;
+}
+
+.navbarSymbol{
+	display: inline;
+	margin-left: 20px;
+	cursor: pointer;
+}
+
+#homePage:hover{
+	background-color: navy;
+	border-radius:10%;
+}
+
+#findFriends:hover{
+	background-color: navy;
+	border-radius:10%;
+}
+
+.settings{
+	border: none;
+	margin-left: 10px;
+	top: -5px;
+	position: relative;
+	background-image: url('images/settings.png'); 
+	width:18px;
+	height:20px;
+	outline:none;
+}
+#navbarFull{
+	margin-right: 205px;
+}
