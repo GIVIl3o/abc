@@ -101,3 +101,51 @@ body{
 #navbarFull{
 	margin-right: 205px;
 }
+#userContent{
+	padding-right: 205px;
+	margin: 0 auto;
+	width: 1012px;
+}
+
+#leftColumn{
+	padding-top: 60px;
+	height:100%; 
+	position:static;
+	width:180px;
+	display: inline-block;
+}
+
+
+.contentText{
+	font-family: Helvetica;
+	font-size: 13px;
+}
+
+#groups{
+	margin-bottom: 10px;
+}
+
+.CreateLinks{
+	text-decoration: none;
+}
+.CreateLinks:hover{
+	text-decoration: underline;
+}
+
+.leftColumnElem:hover{
+	background-color:white;
+}
+.leftColumnElem:active{
+	background-color:#e9ebee;
+}
+.leftColumnElem{
+	cursor: pointer;
+	padding: 2px;
+}
+
+#groups{
+	margin-top: 5px;
+}
+#social{
+	margin-top:10px;
+}
