@@ -149,3 +149,23 @@ body{
 #social{
 	margin-top:10px;
 }
+
+#friends{
+	float:right;
+	top:43px;
+	right:0px;
+	width:205px;
+	display:inline-block;
+	border-left: 1px solid rgba(0,0,0,0.4);
+	position:absolute;
+	height:100%;
+	overflow-y:auto;
+}
+ul{
+	list-style-type:none;
+	cursor:pointer;
+	padding:0;
+}
+li{
+	display:list-item;
+}

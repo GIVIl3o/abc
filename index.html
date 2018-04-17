@@ -160,7 +160,40 @@
 		</div>
 	</div>
 
+
+	<div id="friends">
+		<div class="friend" style="margin-left: 5px;">
+			<ul id="friendList">
+
+			</ul>
+			<img src="images/friendId" width="34" height="34" >
+			<span>friend_name</span>
+			<img src="status">
+		</div>
+	</div>
+
+
+
+
+
 </body>
+
+	<script>
+		var cur=document.getElementById("friendList");
+		var insideText="";
+		
+		for(var i=0;i<=30;i++){
+			insideText+="<li class=\"myListStyle\">";
+			insideText+="<img src=\"images/profilePic.jpg\" width=\"34\" height=\"34\" class=\"profilePic\">";
+			insideText+="<span class=\"contentText\">Human N"+i+"</span>";
+			insideText+="</li>";
+		}
+
+		cur.innerHTML=insideText;
+	
+	
+
+	</script>
 
 
 </html>
