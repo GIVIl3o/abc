@@ -1,15 +1,15 @@
 body{
 	margin: 0px;
 	background-color: #e9ebee;
+	height: 2000px;
 }
 
 #navbarHead{
 	background-color: #4267b2;
 	height: 43px;
-	overflow: auto;
+	overflow: hidden;
 	width: 100%;
 	position: fixed;
-	z-index: 1;
 }
 
 #navbarCentered{
@@ -101,6 +101,30 @@ body{
 #navbarFull{
 	margin-right: 205px;
 }
+li{
+	display:block;
+}
+a{
+	line-height: 18px;
+	position:relative;
+	height:38px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #userContent{
 	padding-right: 205px;
 	margin: 0 auto;
@@ -108,9 +132,8 @@ body{
 }
 
 #leftColumn{
-	padding-top: 60px;
+	margin-top: 60px;
 	height:100%; 
-	position:static;
 	width:180px;
 	display: inline-block;
 }
@@ -118,7 +141,7 @@ body{
 
 .contentText{
 	font-family: Helvetica;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 #groups{
@@ -151,21 +174,69 @@ body{
 }
 
 #friends{
-	float:right;
-	top:43px;
-	right:0px;
-	width:205px;
-	display:inline-block;
+	top: 43px;
+	bottom:0px;
+	right: 0px;
+	width: 205px;
+	display: inline-block;
 	border-left: 1px solid rgba(0,0,0,0.4);
-	position:absolute;
-	height:100%;
-	overflow-y:auto;
+	position: fixed;
+	overflow-y: scroll;
+
 }
 ul{
-	list-style-type:none;
-	cursor:pointer;
-	padding:0;
+	list-style-type: none; 
+	cursor: pointer;
+	padding: 0;
 }
-li{
-	display:list-item;
+
+
+#friendSearch{
+	bottom:0px;
+	right: 0px;
+	position:fixed;
+	width: 205px;
+}
+
+
+.friendSearchBar{
+	width:85;
+	height:30;
+	outline:none;
+	border: none;
+}
+
+.friendName{
+	margin-left: 10px;
+	height:38px;
+}
+
+.addFriendText{
+	float:left;
+	margin-left:10px;
+}
+
+.profilePicDiv{
+	clear:left;
+	float:left;
+}
+
+.friendNameDiv{
+	clear:right;
+	float:left;
+	margin-top:10px;
+}
+
+
+.profilePicFriends{
+	clear:left;
+	float:left;
+	border-radius: 50%;
+}
+
+.friendName{
+	clear:right;
+	float:left;
+	margin-top:8px;
+	height: 28px;
 }

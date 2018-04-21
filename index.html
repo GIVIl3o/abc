@@ -55,7 +55,7 @@
 
 	<!--  leftColumn   -->
 	<div id="userContent">
-		<div id="leftColumn">
+		<div id="leftColumn" style="display:inline;float:left;">
 			<div id="user">
 				<div style="margin-bottom: 15px;" class="leftColumnElem">
 					<img src="images/profilePic.jpg" width="20" height="20" class="profilePic">
@@ -158,20 +158,29 @@
 				</div>
 			</div>
 		</div>
+
+
+
 	</div>
 
 
-	<div id="friends">
+	<div id="friends" style="margin-bottom:30px;">
 		<div class="friend" style="margin-left: 5px;">
 			<ul id="friendList">
 
 			</ul>
-			<img src="images/friendId" width="34" height="34" >
-			<span>friend_name</span>
-			<img src="status">
 		</div>
 	</div>
 
+	<div id="friendSearch">
+		<label for="quick-friend-search" style="cursor: pointer;">
+    		<img src="images/friendSearch.png" width="30" height="30" style="float: left;">
+    	</label>
+		<input type="text" placeholder="Search" class="friendSearchBar" id="quick-friend-search" style="float:left;">
+		<img src="images/settings2.png" width="30" height="30" style="float:left;">
+		<img src="images/ragaca.png" width="30" height="30" style="float:left;">
+		<img src="images/createGroupChat.png" width="30" height="30" style="float:left;">
+	</div>
 
 
 
@@ -179,17 +188,20 @@
 </body>
 
 	<script>
-		var cur=document.getElementById("friendList");
-		var insideText="";
 		
-		for(var i=0;i<=30;i++){
-			insideText+="<li class=\"myListStyle\">";
-			insideText+="<img src=\"images/profilePic.jpg\" width=\"34\" height=\"34\" class=\"profilePic\">";
-			insideText+="<span class=\"contentText\">Human N"+i+"</span>";
-			insideText+="</li>";
+		var cur=document.getElementById("friendList");
+		
+		var friends = [];
+		
+		for(var i=0;i<=14;i++){
+			friends.push("<li class=\"myListStyle\">");
+			friends.push("<img src=\"images/profilePic.jpg\" width=\"34\" height=\"34\" class=\"profilePicFriends\">");
+			friends.push("<span class=\"contentText friendName\" id=\"friendName\">Human N"+i+"</span>");
+			friends.push();
+			friends.push("</li>");
 		}
 
-		cur.innerHTML=insideText;
+		cur.innerHTML = friends.join('');
 	
 	
 
