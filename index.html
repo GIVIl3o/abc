@@ -158,6 +158,64 @@
 				</div>
 			</div>
 		</div>
+		<div id="posts" style="width:500px;margin-top:60px; display:inline;float:left;padding-left:10px;">posts</div>
+
+		<div class="peopleRequests">
+			<div class="requests">
+				<span style="color:#616770;">Friend Requests</span>
+				<a href="#" class="CreateLinks" style="float:right;">See All</a><br>
+
+				<div class="curRequest">
+					<div style="float:left;">
+						<img src="images/userNoImage.png">
+					</div>
+					<div class="addFriendText">
+						<span class="CreateLinks" style="color:blue;cursor:pointer;">სახელი გვარი</span><br>
+						<span class="CreateLinks" style="color:grey;cursor:pointer;">3 mutual friends</span><br>
+						<button class="confirmFriend">Confirm Friend</button>
+					</div>
+				</div>
+
+
+				<div class="curRequest">
+					<div style="float:left;">
+						<img src="images/userNoImage.png">
+					</div>
+					<div class="addFriendText">
+						<span class="CreateLinks" style="color:blue;cursor:pointer;">სახელი გვარი2</span><br>
+						<span class="CreateLinks" style="color:grey;cursor:pointer;">5 mutual friends</span><br>
+						<button class="confirmFriend">Confirm Friend</button>
+					</div>
+				</div>
+			</div>
+
+			<div class="requests" style="margin-top:20px;">
+				<span style="color:#616770;">People You May Know</span>
+				<a href="#" class="CreateLinks" style="float:right;">See All</a><br>
+
+				<div class="curRequest">
+					<div style="float:left;">
+						<img src="images/userNoImage.png">
+					</div>
+					<div class="addFriendText">
+						<span class="CreateLinks" style="color:blue;cursor:pointer;">სახელი გვარი3</span><br>
+						<span class="CreateLinks" style="color:grey;cursor:pointer;">ვიღაცა</span>
+						<span style="color:grey;">is a mutual friend.</span><br>
+						<button class="confirmFriend">Add Friend</button>
+					</div>
+				</div>
+				<div class="curRequest">
+					<div style="float:left;">
+						<img src="images/userNoImage.png">
+					</div>
+					<div class="addFriendText">
+						<span class="CreateLinks" style="color:blue;cursor:pointer;">სახელი გვარი4</span><br>
+						<span class="CreateLinks" style="color:grey;cursor:pointer;">14 mutual friends</span><br>
+						<button class="confirmFriend">Add Friend</button>
+					</div>
+				</div>
+			</div>
+		</div>
 
 
 
@@ -197,6 +255,7 @@
 			friends.push("<li class=\"myListStyle\">");
 			friends.push("<img src=\"images/profilePic.jpg\" width=\"34\" height=\"34\" class=\"profilePicFriends\">");
 			friends.push("<span class=\"contentText friendName\" id=\"friendName\">Human N"+i+"</span>");
+			friends.push("<span class='onlineFrom'>"+(2+i)+"m</span>");
 			friends.push();
 			friends.push("</li>");
 		}

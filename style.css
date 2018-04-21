@@ -109,22 +109,6 @@ a{
 	position:relative;
 	height:38px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #userContent{
 	padding-right: 205px;
 	margin: 0 auto;
@@ -211,6 +195,36 @@ ul{
 	height:38px;
 }
 
+.curRequest{
+	margin-top:20px;
+	overflow:auto;
+}
+
+.peopleRequests{
+	width:308px;
+	margin-top:60px;
+	float:left;
+}
+
+.requests{
+	background-color:white;
+	padding:15px;
+	border-radius:5%;
+
+}
+
+.confirmFriend{
+	background-color:#e9ebee;
+	outline:none;
+	border-radius:10%;
+	padding:5px;
+	padding-left:10px;
+	padding-right:10px;
+	border:none;
+	cursor:pointer;
+	margin-top:2px;
+}
+
 .addFriendText{
 	float:left;
 	margin-left:10px;
@@ -240,3 +254,14 @@ ul{
 	margin-top:8px;
 	height: 28px;
 }
+
+.onlineFrom{
+	clear:right;
+	float:right;
+	margin-top:8px;
+	height:28px;
+	color:grey;
+	margin-right: 5px;
+}
+
+
