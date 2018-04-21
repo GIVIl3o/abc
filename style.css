@@ -109,6 +109,22 @@ a{
 	position:relative;
 	height:38px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #userContent{
 	padding-right: 205px;
 	margin: 0 auto;
@@ -262,6 +278,47 @@ ul{
 	height:28px;
 	color:grey;
 	margin-right: 5px;
+	font-size: 12px;
 }
 
 
+
+.leftPanelImage{
+	clear:left;
+	float:left;
+	width: 20px;
+	height:20px;
+}
+
+.leftPanelText{
+	font-family: Helvetica;
+	font-size: 14px;
+	float:left;
+	clear:right;
+	height:20px;
+	margin-left:5px;
+}
+
+#leftColumn li{
+	height:20px;
+}
+
+#leftColumn img{
+	width: 20px;
+	height: 20px;
+	float:left;
+}
+
+#leftColumn span{
+	height:20px;
+	margin-left:5px;
+	margin-top:3px;
+}
+
+.leftColumnElem{
+	height:20px;
+	margin-top:5px;
+}
+#leftColumn ul{
+	margin-top:2px;
+}
