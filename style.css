@@ -1,7 +1,6 @@
 body{
 	margin: 0px;
 	background-color: #e9ebee;
-	height: 2000px;
 }
 
 #navbarHead{
@@ -150,6 +149,7 @@ a{
 
 .CreateLinks{
 	text-decoration: none;
+	cursor:pointer;
 }
 .CreateLinks:hover{
 	text-decoration: underline;
@@ -337,4 +337,37 @@ ul{
 	height:55px;
 	padding-top:25px;
 	padding-left:10px;
+}
+
+.postText{
+	margin-left:15px;
+	outline:none;
+	border:none;
+	resize:none;
+	width:460px;
+}
+.emoteReactions{
+	color:#616770;
+	text-decoration: none;
+	cursor:pointer;
+}
+.emoteReactions:hover{
+	text-decoration: underline;
+}
+.emotes{
+	margin-left:15px;
+	margin-right:15px;
+	height:30px;
+	font-family: Helvetica;
+	font-size: 14px;
+	color:#616770;
+	cursor:pointer;
+}
+
+.addEmotes{
+	width:156px;
+	float:left;
+}
+img{
+	cursor:pointer;
 }
