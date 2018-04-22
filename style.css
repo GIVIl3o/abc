@@ -322,3 +322,19 @@ ul{
 #leftColumn ul{
 	margin-top:2px;
 }
+
+
+
+
+#postHeader{
+	background-color:#f6f7f9;
+}
+#postTextArea{
+	resize:none;
+	border:none;
+	outline:none;
+	width:444px;
+	height:55px;
+	padding-top:25px;
+	padding-left:10px;
+}

@@ -59,7 +59,7 @@
 			<div id="user">
 				<div style="margin-bottom: 0px;" class="leftColumnElem">
 					<img src="images/profilePic.jpg" width="20" height="20" class="profilePic" style="float:left;">
-					<span class="contentText" style="float:left;margin-top:3px;">Levan Sarchimelia</span>
+					<span class="contentText" style="float:left;">Levan Sarchimelia</span>
 				</div>
 				<div>
 					<ul style="margin-top:10px;">
@@ -169,12 +169,47 @@
 				</div>
 			</div>
 		</div>
-		<div id="posts" style="width:500px;margin-top:60px; display:inline;float:left;padding-left:10px;">posts</div>
+		<div id="posts" style="width:500px;margin-top:60px; display:inline;float:left;margin-left:10px;margin-right:10px;">
+			<div id="makePost">
+				<div id="postHeader" style="padding:3px;">
+					<img src="images/pen.png" width="20" height="15" style="margin-left:10px;cursor:pointer;">
+					<span style="color:#4b4f56;font-size:12px;font-weight: 600;font-family:Helvetica;cursor:pointer;">Make Post</span>
+					|
+					<img src="images/photoVideo.png" width="20" height="15"" style="cursor:pointer;">
+					<span style="color:#365899;font-size:12px;font-weight: 600;font-family:Helvetica;cursor:pointer;">Photo/Video Album</span>
+					|
+					<img src="images/liveVideo2.png" width="16" height="15" style="cursor:pointer;">
+					<span style="color:#365899;font-size:12px;font-weight: 600;font-family:Helvetica;cursor:pointer;">Live Video</span>
+				</div>
+				<div id="postArea" style="width:500px;height:71px;background-color:white;">
+					<img src="images/profilePic.jpg" width="40" height="40" style="margin-left:12px;margin-top:12px;border-radius:50%;">
+					<textarea placeholder="What's on you mind, Levan?" id="postTextArea"></textarea>
+					<div style="padding-left:10px;padding-right:10px;">
+						<hr>
+					</div>
+				</div>
+
+				<div id="postBottomSide" style="background-color:white;padding-left:12px;padding-right:12px;width:476px;height:30;padding-top:8px;padding-bottom:8px;">
+					<div style="background-color:#e9ebee;border-radius:18px;padding:8px;width:95px;height:15px;float:left;cursor:pointer;" title="Choose a file to upload">
+						<img src="images/photoVideoButton.png" style="float:left;width:">
+						<span style="font-family:Helvetica;font-size:12px;float:left;">&nbsp;&nbsp;Photo/Video</span>
+					</div>
+					<div style="background-color:#e9ebee;border-radius:18px;padding:8px;width:115px;height:15px;float:left;margin-left:10px;cursor:pointer;">
+						<img src="images/smile.png" style="float:left;" width="20">
+						<span style="font-family:Helvetica;font-size:12px;float:left;">&nbsp;&nbsp;Feeling/Activity</span>
+					</div>
+					<div style="background-color:#e9ebee;border-radius:18px;padding:8px;width:20px;height:15px;float:left;margin-left:10px;clear:right;cursor:pointer;">
+						<img src="images/dots.png" style="float:left;">
+					</div>
+				</div>
+			</div>
+
+		</div>
 
 		<div class="peopleRequests">
 			<div class="requests">
 				<span style="color:#616770;">Friend Requests</span>
-				<a href="#" class="CreateLinks" style="float:right;">See All</a><br>
+				<a href="#" class="CreateLinks" style="float:right;font-size:14;">See All</a><br>
 
 				<div class="curRequest">
 					<div style="float:left;">
@@ -202,7 +237,7 @@
 
 			<div class="requests" style="margin-top:20px;">
 				<span style="color:#616770;">People You May Know</span>
-				<a href="#" class="CreateLinks" style="float:right;">See All</a><br>
+				<a href="#" class="CreateLinks" style="float:right;font-size:14;">See All</a><br>
 
 				<div class="curRequest">
 					<div style="float:left;">
