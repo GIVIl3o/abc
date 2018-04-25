@@ -14,7 +14,9 @@
 					<span id="fblogo" class="navbarContent"></span>
 					<div style="display:inline;">
 						<input type="text" id="searchbar" class="navbarContent" placeholder="Search">
-						<img src="images/searchIcon.png" width="30" height="24" style="margin-left: -35px;margin-top: 1px;" >
+						<label for="searchbar">
+							<img src="images/searchIcon.png" width="30" height="24" style="margin-left: -35px;margin-top: 1px;" >
+						</label>
 					</div>
 				</div>
 
@@ -78,7 +80,7 @@
 					</ul>
 				</div>
 
-				<span style="clear:left;margin-top:5px;color:#616770;">Shortcuts</span>
+				<span style="clear:left;margin-top:10px;margin-bottom:5px;color:#616770;">Shortcuts</span>
 
 				<div id="groups">
 					<ul>
@@ -109,63 +111,88 @@
 					</ul>
 				</div>
 
-				<span style="color:#616770;">Explore</span>
+				<span style="color:#616770;margin-bottom:5px;">Explore</span>
 
 				<div id="social">
-					<div class="leftColumnElem">
-						<img src="images/findFriends.png" width="20" height="20">
-						<span class="contentText">Find Friends</span>
-					</div>
-
-					<div class="leftColumnElem">
-						<img src="images/events.png" width="20" height="20">
-						<span class="contentText">Events</span>
-					</div>
-					<div class="leftColumnElem">
-						<img src="images/Pages.png" width="20" height="20">
-						<span class="contentText">Pages</span>
-					</div>
-					<div class="leftColumnElem">
-						<img src="images/groups.png" width="20" height="20">
-						<span class="contentText">groups</span>
-					</div>
-					<div class="leftColumnElem">
-						<img src="images/friendList.png" width="20" height="20">
-						<span class="contentText">Friend Lists</span>
-					</div>
-					<div class="leftColumnElem">
-						<img src="images/onThisDay.png" width="20" height="20">
-						<span class="contentText">On This Day</span>
-					</div>
-					<div class="leftColumnElem">
-						<img src="images/pageFeed.png" width="20" height="20">
-						<span class="contentText">Pages Feed</span>
-					</div>
-					<div class="leftColumnElem">
-						<img src="images/photos.png" width="20" height="20">
-						<span class="contentText">PHotos</span>
-					</div>
-					<div class="leftColumnElem">
-						<img src="images/games.png" width="20" height="20">
-						<span class="contentText">games</span>
-					</div>
-					<div class="leftColumnElem">
-						<img src="images/suggestEdits.png" width="20" height="20">
-						<span class="contentText">Suggest Edits</span>
-					</div>
-					<div style="margin-bottom: 10px;" class="leftColumnElem">
-						<img src="images/liveVideo.png" width="20" height="20">
-						<span class="contentText">Live Video</span>
-					</div>
+					<ul>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/findFriends.png" width="20" height="20">
+								<span class="contentText">Find Friends</span>
+							</div>
+						</li>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/events.png" width="20" height="20">
+								<span class="contentText">Events</span>
+							</div>
+						</li>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/Pages.png" width="20" height="20">
+								<span class="contentText">Pages</span>
+							</div>
+						</li>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/groups.png" width="20" height="20">
+								<span class="contentText">groups</span>
+							</div>
+						</li>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/friendList.png" width="20" height="20">
+								<span class="contentText">Friend Lists</span>
+							</div>
+						</li>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/onThisDay.png" width="20" height="20">
+								<span class="contentText">On This Day</span>
+							</div>
+						</li>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/pageFeed.png" width="20" height="20">
+								<span class="contentText">Pages Feed</span>
+							</div>
+						</li>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/photos.png" width="20" height="20">
+								<span class="contentText">PHotos</span>
+							</div>
+						</li>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/games.png" width="20" height="20">
+								<span class="contentText">games</span>
+							</div>
+						</li>
+						<li>
+							<div class="leftColumnElem">
+								<img src="images/suggestEdits.png" width="20" height="20">
+								<span class="contentText">Suggest Edits</span>
+							</div>
+						</li>
+						<li>
+							<div style="margin-bottom: 10px;" class="leftColumnElem">
+								<img src="images/liveVideo.png" width="20" height="20">
+								<span class="contentText">Live Video</span>
+							</div>
+						</li>
+					</ul>
 				</div>
 
-				<span style="color:#616770;">Create</span><br>
+				<div id="leftColumnOther">
+					<span style="color:#616770;display:block;margin-bottom:5px;">Create</span>
 
-				<div id="CreateLinks">
-					<span href="#" class="CreateLinks">Ad</span>
-					<span href="#" class="CreateLinks">Page</span>
-					<span href="#" class="CreateLinks">Group</span>
-					<span href="#" class="CreateLinks">Event</span>
+					<div id="CreateLinks" style="clear:left;">
+						<span href="#" class="CreateLinks">Ad</span>
+						<span href="#" class="CreateLinks">Page</span>
+						<span href="#" class="CreateLinks">Group</span>
+						<span href="#" class="CreateLinks">Event</span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -334,7 +361,7 @@
 				<span style="color:#616770;">Friend Requests</span>
 				<span class="CreateLinks" style="float:right;font-size:14;">See All</span><br>
 
-				<div class="curRequest">
+				<div class="curRequest" style="margin-top:10px;">
 					<div style="float:left;">
 						<img src="images/userNoImage.png">
 					</div>
@@ -362,7 +389,7 @@
 				<span style="color:#616770;">People You May Know</span>
 				<span class="CreateLinks" style="float:right;font-size:14;">See All</span><br>
 
-				<div class="curRequest">
+				<div class="curRequest" style="margin-top:10px;">
 					<div style="float:left;">
 						<img src="images/userNoImage.png">
 					</div>

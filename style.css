@@ -145,6 +145,7 @@ a{
 
 #groups{
 	margin-bottom: 10px;
+	clear:left;
 }
 
 .CreateLinks{
@@ -161,16 +162,13 @@ a{
 .leftColumnElem:active{
 	background-color:#e9ebee;
 }
-.leftColumnElem{
-	cursor: pointer;
-	padding: 2px;
-}
 
 #groups{
 	margin-top: 5px;
 }
 #social{
 	margin-top:10px;
+	clear:left;
 }
 
 #friends{
@@ -300,24 +298,26 @@ ul{
 }
 
 #leftColumn li{
-	height:20px;
+	height:25px;
 }
 
 #leftColumn img{
 	width: 20px;
 	height: 20px;
 	float:left;
+	clear: left;
 }
 
 #leftColumn span{
-	height:20px;
 	margin-left:5px;
-	margin-top:3px;
+	float: left;
 }
 
 .leftColumnElem{
-	height:20px;
+	height:25px;
 	margin-top:5px;
+	cursor: pointer;
+	padding: 2px;
 }
 #leftColumn ul{
 	margin-top:2px;
@@ -370,4 +370,18 @@ ul{
 }
 img{
 	cursor:pointer;
+}
+ul{
+	margin-bottom: 0px;
+}
+#leftColumnOther{
+	margin-top:10px;
+}
+
+#social span{
+	margin-top:3px;
+}
+
+.peopleRequests img{
+	border-radius: 50%;
 }
